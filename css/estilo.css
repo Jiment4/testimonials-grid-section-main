@@ -1,0 +1,222 @@
+body {
+  background-color: #ecf2f8;
+  display: grid;
+  grid-template-areas: "card1 card1 card2 card5" "card3 card4 card4 card5" "atr atr atr atr";
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin: 15px 80px;
+  padding: 20;
+  width: auto; }
+
+.attribution {
+  font-size: 11px;
+  display: flex;
+  justify-content: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+.card1 {
+  grid-area: card1; }
+
+.card2 {
+  grid-area: card2; }
+
+.card3 {
+  grid-area: card3; }
+
+.card4 {
+  grid-area: card4; }
+
+.card5 {
+  grid-area: card5; }
+
+.attribution {
+  grid-area: atr; }
+
+.card1 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: #7541c8;
+  color: #ecf2f8;
+  border-radius: 6px;
+  width: 600px;
+  padding: 15px 0px; }
+  .card1 .flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 43px;
+    justify-content: flex-start; }
+  .card1__img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #cfcfcf; }
+  .card1__name {
+    padding: 0px 10px;
+    font-weight: 500; }
+  .card1__verified {
+    color: white;
+    opacity: 50%;
+    padding: 0px 10px;
+    font-size: 12px; }
+  .card1__title {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px 25px; }
+  .card1__paragraph {
+    opacity: 70%;
+    font-size: 13px;
+    padding: 15px 25px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight: 100; }
+  .card1__flex {
+    display: flex;
+    justify-content: center; }
+
+.card2 {
+  background-color: #48556a;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: white;
+  border-radius: 6px;
+  padding: 15px 20px; }
+  .card2 .flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px; }
+  .card2__img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #cfcfcf; }
+  .card2__name {
+    font-weight: 500;
+    padding: 0px 10px;
+    font-weight: 600; }
+  .card2__verified {
+    opacity: 50%;
+    padding: 0px 10px;
+    font-size: 13px; }
+  .card2__title {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    padding: 10px; }
+  .card2__paragraph {
+    opacity: 70%;
+    font-size: 13px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    line-height: 18px; }
+
+.card3 {
+  background-color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #48556a;
+  border-radius: 6px;
+  padding: 15px 20px;
+  box-shadow: 5px 5px 10px #e3e3e3, -5px -5px 10px #ffffff; }
+  .card3 .flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px; }
+  .card3__img {
+    width: 35px;
+    height: auto;
+    border-radius: 50%; }
+  .card3__name {
+    font-weight: 500;
+    padding: 0px 10px;
+    font-weight: 600; }
+  .card3__verified {
+    opacity: 50%;
+    padding: 0px 10px;
+    font-size: 13px; }
+  .card3__title {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    padding: 10px; }
+  .card3__paragraph {
+    opacity: 70%;
+    font-size: 13px;
+    padding: 10px;
+    letter-spacing: 0.3px;
+    line-height: 18px; }
+
+.card4 {
+  background-color: #19212e;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: white;
+  border-radius: 6px;
+  padding: 15px 0px; }
+  .card4 .flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 60px; }
+  .card4__img {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #7541c8; }
+  .card4__name {
+    font-weight: 500;
+    padding: 0px 10px;
+    font-weight: 600; }
+  .card4__verified {
+    opacity: 50%;
+    padding: 0px 10px;
+    font-size: 13px; }
+  .card4__title {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    padding: 10px; }
+  .card4__paragraph {
+    opacity: 70%;
+    font-size: 13px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    line-height: 18px; }
+  .card4__flex {
+    display: flex;
+    justify-content: center; }
+
+.card5 {
+  background-color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #48556a;
+  border-radius: 6px;
+  padding: 15px 25px;
+  box-shadow: 5px 5px 10px #e3e3e3, -5px -5px 10px #ffffff; }
+  .card5 .flex {
+    display: flex;
+    flex-direction: row;
+    padding: 10px; }
+  .card5__img {
+    width: 35px;
+    height: auto;
+    border-radius: 50%; }
+  .card5__name {
+    font-weight: 500;
+    padding: 0px 10px;
+    font-weight: 600; }
+  .card5__verified {
+    opacity: 50%;
+    padding: 0px 10px;
+    font-size: 13px; }
+  .card5__title {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    padding: 10px; }
+  .card5__paragraph {
+    opacity: 70%;
+    font-size: 13px;
+    padding: 10px;
+    letter-spacing: 0.3px;
+    line-height: 18px; }
+  .card5__flex {
+    display: flex;
+    justify-content: center; }
